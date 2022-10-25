@@ -2,3 +2,27 @@ body {
     padding: 20px;
     background-color: blue;
 }
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: green;
+    }
+}
+.stil {
+    font-size: 18pt;
+    font-family: monospace;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+}
+.btn-reset {
+    font-size: 18pt;
+    font-family: monospace;
+    background-color: #00ff0d;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+}
+canvas {
+    display: block;
+}
